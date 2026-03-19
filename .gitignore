@@ -15,3 +15,8 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
+
+
+# Added by cargo
+
+/target

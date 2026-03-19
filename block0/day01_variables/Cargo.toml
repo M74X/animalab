@@ -1,0 +1,10 @@
+[package]
+name = "day01_variables"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[[bin]]
+name = "day01_variables"
+path = "main.rs"
