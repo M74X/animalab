@@ -5,6 +5,10 @@
     "ghcr.io/devcontainers/features/rust:1": {
       "version": "latest",
       "profile": "default"
+    },
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": true,
+      "configureZshAsDefault": true
     }
   },
   "customizations": {
@@ -20,7 +24,7 @@
         "editor.formatOnSave": true,
         "editor.defaultFormatter": "rust-lang.rust-analyzer",
         "rust-analyzer.checkOnSave.command": "clippy",
-        "terminal.integrated.defaultProfile.linux": "bash"
+        "terminal.integrated.defaultProfile.linux": "zsh"
       }
     }
   },
