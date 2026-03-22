@@ -19,11 +19,11 @@ CLAUDE.md as the master reference — this file is an adaptation of it.
   Ownership, borrowing, and lifetimes map naturally onto this world.
 - **Goal**: AnimaCore production competence by Day 30 — FFI, unsafe Rust, and Vulkan
   bindings that feed `core/`, the shared engine used by all silos.
-- **Current position**: Day 04 — Ownership (próximo a desarrollar con código real).
-- **Days completed**: 01–03. Day 01 tiene código en el repo. Days 02–03 fueron sesiones
-  de conversación sin código — los conceptos se cubrieron pero no hay ejercicios escritos
-  que revisar. Al iniciar Day 04, el recap quiz debe cubrir el tema de Day 03 (funciones
-  + control flow) desde la conversación, no desde el código.
+- **Current position**: Day 05 — Ownership (próximo a desarrollar con código real).
+- **Days completed**: 01–04. Day 01 y Day 04 tienen código en el repo. Days 02–03 fueron
+  sesiones de conversación sin código. Day 04 (control flow) completado 2026-03-22 con
+  mini-challenge compilado: score→grade con match y rangos. Al iniciar Day 05, el recap
+  quiz debe cubrir Day 04 (control flow: if/else como expresión, loop, for, match exhaustivo).
 - **Language rule**: Technical terms, identifiers, compiler output, and all code in
   **English**. All conceptual explanations, analogies, and feedback in **Spanish**.
 
